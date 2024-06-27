@@ -9,6 +9,25 @@ body{
     margin-left: 30px;
     margin-top: 50px;
 }
+.Facebook:hover {
+    transform: scaleX(-1);
+    transition: transform 0.5s;
+    color: #E5BF4A;
+    cursor: pointer;
+}
+.Instagram:hover {
+    transform: scaleX(-1);
+    transition: transform 0.5s;
+    color: #E5BF4A;
+    cursor: pointer;
+}
+.Twitter:hover {
+    transform: scaleX(-1);
+    transition: transform 0.5s;
+    color: #E5BF4A;
+    cursor: pointer;
+}
+
 i{
     color: white;
     margin: 0px 10px;
@@ -30,6 +49,10 @@ i{
     padding: 15px;
     font-size: 15px;
 }
+.btn:hover {
+    background-color: #E5BF4A;
+    color: white;
+}
 .sticky{
     position: sticky;
     top: 0;
@@ -40,6 +63,9 @@ i{
     text-align: center;
     margin-top: 40px;
     width: 100%;
+}
+.second-head a:hover {
+    color: #E5BF4A;
 }
 a{
     text-decoration: none;
@@ -68,6 +94,11 @@ a{
     border: 1px solid #E5BF4A;
     padding:20px 30px;
     margin-left: 90px;
+}
+.order:hover {
+    background-color: transparent;
+    color: #E5BF4A;
+    border: 2px solid #E5BF4A;
 }
 .slogan{
     color: white;
@@ -111,6 +142,21 @@ span{
     height: 90vh;
     margin: 50px 100px;
 }
+.video-button{
+    position: relative;
+    top: 50%;
+    left: 45%; 
+    border-radius: 45%;
+    border: solid #E5BF4A;
+    padding: 20px;
+    background-color: #E5BF4A;
+    cursor: pointer;
+}
+.video-button:hover{
+    background-color: red;
+    border: 2px solid black;
+    left: 45%;
+}
 .grid-3-head{
     color: white;
     font-size: 30px;
@@ -150,11 +196,62 @@ span{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 100px;
+    margin-top: 70px;
 }
 .side-btn{
-    margin-top: 30px;
+    margin-top: 70px;
     background-color: #E5BF4A;
     font-size: 12px;
     margin-right: 100px;
     padding: 15px 30px; 
+}
+.blog-1{
+    color: #E5BF4A;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.second-blog{
+    border: 1px solid gray;
+}
+.sub-blog-1{
+    color: white;
+    font-size: 15px;
+    padding: 0px 20px;
+    line-height: 30px;
+}
+.link{
+    color: #E5BF4A;
+    text-decoration-line: underline;
+}
+.Blogs{
+    display: flex;
+    margin-top: 80px;
+}
+.second-blogs{
+    width: 367px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.insta{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 120px;
+}
+.btn-insta{
+    border: 1px solid #E5BF4A;
+    background-color: black;
+    color: #E5BF4A;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 47%;
+}
+.insta-btn{
+    color: #E5BF4A;
+}
+.instra-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 90px;
 }
