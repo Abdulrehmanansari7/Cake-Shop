@@ -56,6 +56,7 @@ i{
 .sticky{
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .second-head{
     padding: 40px 0px;
@@ -146,11 +147,14 @@ span{
     position: relative;
     top: 50%;
     left: 45%; 
-    border-radius: 45%;
+    border-radius: 50%;
     border: solid #E5BF4A;
-    padding: 20px;
+    padding: 30px;
     background-color: #E5BF4A;
     cursor: pointer;
+}
+.fa-play{
+    color: black;
 }
 .video-button:hover{
     background-color: red;
@@ -254,4 +258,95 @@ span{
     display: flex;
     justify-content: space-between;
     margin: 80px 90px;
+}
+.add{
+    font-size: 20px;
+    color: black;
+    background-color: #E5BF4A;
+    padding: 20px;
+    padding-left: 140px;
+    position: relative;
+    bottom: 175px;
+    visibility: hidden;
+}
+.div-1:hover .add{
+    cursor: pointer;
+    visibility: visible;
+}
+.div-2:hover .add{
+    cursor: pointer;
+    visibility: visible;
+}
+.div-3:hover .add{
+    cursor: pointer;
+    visibility: visible;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 130px;
+}
+
+.ulist {
+    color: white;
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 10px 20px;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 3% 10%;
+    padding: 5% 0;
+}
+
+.f-instagram{
+    margin: 10px;
+    background-color: transparent;
+    color: #fff;
+    border:1px solid gray;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.f-facebook{
+    margin: 10px;
+    background-color: transparent;
+    color: #fff;
+    border:1px solid gray;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.f-twitter{
+    background-color: transparent;
+    color: #fff;
+    border:1px solid gray;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.foot-p{
+    color: white;
+    line-height: 30px;
+}
+.foot-h{
+    color: #E5BF4A;
+}
+.footer-1{
+    margin-right: 70px;
+}
+.Copyright{
+    color: white;
+    text-align: center;
+}
+.colorlib{
+    color: #E5BF4A;
 }
